@@ -9,12 +9,12 @@
 // Podemos iniciar com letra maiuscula (let Nome = 'Humberto')
 // Ou usar camelCase (let meuPrimeiroNome = 'Humberto')
 
-let 3nome = 'teste1';
+//let 3nome = 'teste1';
 let nome3 = 'teste2';
 let $nome = 'teste3';
 let _nome = 'teste4';
-let @nome = 'teste5';
-let !nome = 'teste6';
+//let @nome = 'teste5';
+//let !nome = 'teste6';
 let Nome = 'teste7';
 let SeuNome = 'teste8';
 let seu_nome = 'teste9';
