@@ -1,19 +1,12 @@
-let nome = "Humberto"
+// var é a forma mais antiga, voce deve optar por let ou const
+// const vem de constante, ou seja, o seu valor nao pode ser alterado
+
+
+var nome = 'Humberto'
+const ip = '127.0.0.1'
 
 console.log(nome);
-console.log(`Meu nome é ${nome}`);
+console.log(ip);
 
-let laranjas = 5
-console.log(laranjas * laranjas);
+ip = 'test'; // Irá parar o script
 
-nome = 'Nicolas';
-console.log(nome);
-
-laranjas = 6;
-console.log(laranjas * laranjas);
-
-laranja = 'laranja';
-console.log(laranja);
-
-let um = 1, dois = 2, tres = 3;
-console.log(um + dois + tres);
