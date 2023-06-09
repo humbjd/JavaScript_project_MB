@@ -1,22 +1,21 @@
 
+let num = 41;
+let divisoes = 0;
 
-for(let i = 0; i <= 100; i++){
-    if(i <= 1){
-        console.log(`O numero ${i} NÃO é PRIMO`)
-    }else if(i <= 3){
-        console.log(`O numero ${i} NÃO é PRIMO`)
-    }else if(i % 2 == 0 || i % 3 == 0){
-        console.log(`O numero ${i} NÃO é PRIMO`)
-    }else if(let div = 5; div){
 
+for(let i = 1; i <= num; i++){
+    // 4 - 1, 2, 4
+    if(num % i == 0){
+        divisoes++;
     }
+    
 }
 
 
+if(divisoes == 2){
+    console.log(`O numero ${num} é primo`);
+}else {
+    console.log(`O numero ${num} não é primo`);
+}
 
-
-
-
-
-console.log(`O numero ${i} é divisível por ${i} e por 1, portanto é um numero PRIMO`)
 
